@@ -1,0 +1,147 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+  body > section {
+    position: relative;
+    overflow-x: hidden;
+    text-align: center;
+    background: 50% 0 no-repeat fixed; }
+
+.story {
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1500px;
+  position: relative;
+  margin: 0 auto; }
+
+h1, h2, h3, h4, body, input {
+  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-weight: 300; }
+
+h1 {
+  font-size: 8em;
+  font-weight: 100;
+  margin: 150px 0 0 0; }
+
+h2 {
+  font-size: 3.5em;
+  font-weight: 100;
+  margin: 0; }
+
+#intro {
+  position: relative; }
+  #intro .phone {
+    position: absolute;
+    background-image: url("../img/phone_0.png");
+    background-position: 25% 100px; }
+  #intro article {
+    position: fixed;
+    margin: 100px 0 0 50%; }
+
+#cam {
+  background-image: url("../img/cam_bg.jpg");
+  height: 1000px; }
+
+#phone2 {
+  background-image: url("../img/phone.png");
+  width: 332px;
+  height: 694px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -166px;
+  margin-top: -348px;
+  z-index: 50; }
+
+#outro {
+  background-image: url("../img/outro.jpg"); }
+  #outro h2 {
+    width: 500px;
+    margin: 0px auto; }
+  #outro .wrapper {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 700px;
+    height: 500px;
+    margin-left: -350px;
+    margin-top: -300px; }
+  #outro .letsgo {
+    margin-top: 50px;
+    height: 300px; }
+    #outro .letsgo .socialmedia {
+      width: 28%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.3);
+      float: left; }
+      #outro .letsgo .socialmedia > div {
+        height: 50%; }
+    #outro .letsgo .subscribe {
+      height: 100%;
+      width: 72%%;
+      background-color: rgba(0, 0, 0, 0.7);
+      float: left; }
+      #outro .letsgo .subscribe input {
+        width: 100%;
+        border: 0px;
+        background: none;
+        color: white;
+        padding: 30px;
+        font-size: 1.5em;
+        font-weight: 100;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        focus-border: 1px solid rgba(255, 255, 255, 0.3);
+        focus-outline: none; }
+      #outro .letsgo .subscribe input[type="submit"] {
+        background-color: rgba(0, 0, 0, 0.5); }
+      #outro .letsgo .subscribe .submit {
+        padding: 20px;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+
+.phone {
+  background: url("../img/phone.png") 40% 100px no-repeat fixed;
+  min-height: 1000px;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto; }
+
+@media (max-width: 550px) {
+  h1, h2 {
+    font-size: 2em;
+    width: auto; }
+
+  #outro h2 {
+    width: auto; }
+  #outro .wrapper {
+    width: 90%;
+    left: auto;
+    top: auto;
+    margin: 100px auto 0px; }
+  #outro .letsgo .socialmedia, #outro .letsgo .subscribe {
+    width: 100%;
+    float: right; }
+  #outro .letsgo .socialmedia {
+    height: 100px; }
+    #outro .letsgo .socialmedia > div {
+      height: 100%;
+      width: 50%;
+      float: left;
+      margin: 0px; }
+  #outro .letsgo .subscribe input {
+    font-size: 1.2em; } }
