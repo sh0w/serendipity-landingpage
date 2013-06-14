@@ -39,7 +39,8 @@ h2 {
   margin: 0; }
 
 #intro {
-  position: relative; }
+  position: relative;
+  background: black; }
   #intro .phone {
     position: absolute;
     background-image: url("../img/phone_0.png");
@@ -47,10 +48,32 @@ h2 {
   #intro article {
     position: fixed;
     margin: 100px 0 0 50%; }
+  #intro h1 {
+    font-weight: 500;
+    letter-spacing: -5px;
+    color: white; }
+  #intro h2 {
+    font-weight: 100;
+    letter-spacing: -4px;
+    color: white; }
+
+#explore {
+  background-image: url("../img/explore.jpg");
+  height: 1000px; }
+  #explore .phone {
+    position: absolute;
+    background-image: url("../img/phone_1.png"); }
 
 #cam {
   background-image: url("../img/cam_bg.jpg");
   height: 1000px; }
+
+#result {
+  background-image: url("../img/result.jpg");
+  height: 1000px; }
+  #result .phone {
+    position: absolute;
+    background-image: url("../img/phone_2.png"); }
 
 #phone2 {
   background-image: url("../img/phone.png");
@@ -82,13 +105,14 @@ h2 {
     #outro .letsgo .socialmedia {
       width: 28%;
       height: 100%;
-      background-color: rgba(255, 255, 255, 0.3);
-      float: left; }
+      background-color: rgba(255, 255, 255, 0.7);
+      float: left;
+      cursor: pointer; }
       #outro .letsgo .socialmedia > div {
         height: 50%; }
     #outro .letsgo .subscribe {
       height: 100%;
-      width: 72%%;
+      width: 72%;
       background-color: rgba(0, 0, 0, 0.7);
       float: left; }
       #outro .letsgo .subscribe input {
@@ -145,3 +169,11 @@ h2 {
       margin: 0px; }
   #outro .letsgo .subscribe input {
     font-size: 1.2em; } }
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 6em;
+    width: auto; }
+
+  #intro h2 {
+    font-size: 4em;
+    width: auto; } }
